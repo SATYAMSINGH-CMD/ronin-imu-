@@ -1,0 +1,155 @@
+{
+  "train_size_mb": 800.1,
+  "test_size_mb": 200.02,
+  "total_size_mb": 1000.12,
+  "total_size_gb": 0.977,
+  "catalog": {
+    "total_target_gb": 1.0,
+    "train_target_mb": 800.0,
+    "test_target_mb": 200.0,
+    "train_subjects": [
+      {
+        "id": "train_sub01_pocket_square",
+        "pose": "pocket",
+        "speed": 1.1,
+        "freq": 1.8,
+        "path": "square"
+      },
+      {
+        "id": "train_sub02_handheld_corridor",
+        "pose": "handheld",
+        "speed": 1.35,
+        "freq": 2.0,
+        "path": "corridor"
+      },
+      {
+        "id": "train_sub03_bag_zigzag",
+        "pose": "bag",
+        "speed": 0.95,
+        "freq": 1.65,
+        "path": "zigzag"
+      },
+      {
+        "id": "train_sub04_pocket_figure8",
+        "pose": "pocket",
+        "speed": 1.05,
+        "freq": 1.75,
+        "path": "figure8"
+      },
+      {
+        "id": "train_sub05_handheld_lpath",
+        "pose": "handheld",
+        "speed": 1.2,
+        "freq": 1.9,
+        "path": "lpath"
+      },
+      {
+        "id": "train_sub06_pocket_hallway",
+        "pose": "pocket",
+        "speed": 1.25,
+        "freq": 1.95,
+        "path": "corridor"
+      },
+      {
+        "id": "train_sub07_handheld_loop",
+        "pose": "handheld",
+        "speed": 1.15,
+        "freq": 1.85,
+        "path": "square"
+      },
+      {
+        "id": "train_sub08_bag_meander",
+        "pose": "bag",
+        "speed": 0.9,
+        "freq": 1.6,
+        "path": "complex_loop"
+      },
+      {
+        "id": "train_sub09_pocket_fast",
+        "pose": "pocket",
+        "speed": 1.4,
+        "freq": 2.1,
+        "path": "corridor"
+      },
+      {
+        "id": "train_sub10_handheld_slow",
+        "pose": "handheld",
+        "speed": 0.85,
+        "freq": 1.55,
+        "path": "zigzag"
+      },
+      {
+        "id": "train_sub11_bag_campus",
+        "pose": "bag",
+        "speed": 1.1,
+        "freq": 1.8,
+        "path": "lpath"
+      },
+      {
+        "id": "train_sub12_pocket_office",
+        "pose": "pocket",
+        "speed": 1.0,
+        "freq": 1.7,
+        "path": "figure8"
+      },
+      {
+        "id": "train_sub13_handheld_mall",
+        "pose": "handheld",
+        "speed": 1.18,
+        "freq": 1.88,
+        "path": "complex_loop"
+      },
+      {
+        "id": "train_sub14_bag_corridor",
+        "pose": "bag",
+        "speed": 1.02,
+        "freq": 1.72,
+        "path": "corridor"
+      },
+      {
+        "id": "train_sub15_pocket_zigzag",
+        "pose": "pocket",
+        "speed": 1.22,
+        "freq": 1.92,
+        "path": "zigzag"
+      },
+      {
+        "id": "train_sub16_handheld_square",
+        "pose": "handheld",
+        "speed": 1.12,
+        "freq": 1.82,
+        "path": "square"
+      }
+    ],
+    "test_unseen_subjects": [
+      {
+        "id": "test_sub01_unseen_pocket_loop",
+        "pose": "pocket",
+        "speed": 1.08,
+        "freq": 1.78,
+        "path": "complex_loop"
+      },
+      {
+        "id": "test_sub02_unseen_handheld_mixed",
+        "pose": "handheld",
+        "speed": 1.28,
+        "freq": 1.98,
+        "path": "mixed_walk"
+      },
+      {
+        "id": "test_sub03_unseen_bag_corridor",
+        "pose": "bag",
+        "speed": 0.98,
+        "freq": 1.68,
+        "path": "corridor"
+      },
+      {
+        "id": "test_sub04_unseen_pocket_figure8",
+        "pose": "pocket",
+        "speed": 1.15,
+        "freq": 1.85,
+        "path": "figure8"
+      }
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "drift_detected": true,
+  "severity": "HIGH",
+  "diagnosis": "CRITICAL DRIFT: Both accelerometer and gyroscope have shifted significantly. New sensor hardware or novel carrying pose detected!",
+  "metrics": {
+    "accelerometer": {
+      "wasserstein_distance": 2.9948,
+      "ks_statistic": 0.8952,
+      "ks_pvalue": 0.0,
+      "drift_flag": true,
+      "live_mean": 6.825,
+      "baseline_mean": 9.818
+    },
+    "gyroscope": {
+      "wasserstein_distance": 2.034,
+      "ks_statistic": 0.9999,
+      "ks_pvalue": 0.0,
+      "drift_flag": true,
+      "live_mean": 2.161,
+      "baseline_mean": 0.127
+    }
+  }
+}

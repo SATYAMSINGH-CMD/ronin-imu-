@@ -1,0 +1,26 @@
+{
+  "archive_timestamp": "2026-10-17T18:02:00Z",
+  "status": "IMMUTABLE_BACKUP",
+  "models": {
+    "model_023": {
+      "source": "ronin_dual_regime_thresh_23.pt",
+      "role": "All-Around General Champion (Lowest Avg Drift: 28.41m)"
+    },
+    "model_027": {
+      "source": "ronin_dual_regime_thresh_27.pt",
+      "role": "Pocket Specialist (Lowest Pocket Drift: 7.08m)"
+    },
+    "model_035": {
+      "source": "ronin_dual_regime_thresh_35.pt",
+      "role": "Figure-8 & Curve Record Holder (36.76m on 44-min loop)"
+    },
+    "model_wvel21": {
+      "source": "ronin_impl1_wvel21.pt",
+      "role": "Standalone w_vel=2.1 baseline (7.20m pocket loop)"
+    },
+    "model_sachini": {
+      "source": "ronin_resnet_best.pt",
+      "role": "Official RoNIN ResNet baseline reference"
+    }
+  }
+}
